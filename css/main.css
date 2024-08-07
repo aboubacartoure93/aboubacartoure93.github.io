@@ -6581,7 +6581,8 @@ a.logo.vertical_logo img {
 }
 
 .page_header {
-	transition: background 0.2s ease-in-out 0s, margin 0.6s ease-in-out 0s;
+	transition: background 0.2s ease-in-out 0s,
+ margin 0.6s ease-in-out 0s;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -6609,7 +6610,8 @@ a.logo.vertical_logo img {
 .page_header.section_padding_20 [class*="container"] {
 	padding-top: 20px;
 	padding-bottom: 20px;
-	transition: padding-top 0.2s linear 0s, padding-bottom 0.2s linear 0s;
+	transition: padding-top 0.2s linear 0s,
+ padding-bottom 0.2s linear 0s;
 }
 
 .page_header.section_padding_20.affix [class*="container"] {
@@ -7394,6 +7396,10 @@ body.active-side-header.slide-right .page_header_side {
 
 .ls a {
 	color: #face77;
+}
+
+.intro {
+	color: black;
 }
 
 .ls a:hover {
